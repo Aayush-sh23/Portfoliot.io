@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="https://res.cloudinary.com/dijqqoyfu/image/upload/v1707034491/5968528_erlict.png" type="image/x-icon">
+  <title>Forms For Contact me</title>
+  <style>
+    body {
+      text-align: center;
+      background-image: url('https://res.cloudinary.com/dijqqoyfu/image/upload/v1707037157/71X_U9gEQIL._AC_UF1000_1000_QL80__uj5hjm.jpg');
+    }
+
+    form {
+      display: inline-block;
+      text-align: left;
+    }
+    .o{
+      border: 4px black solid;
+      background-color: grey;
+      margin: auto;
+      width: 522px;
+    }
+    .sub{
+      border-radius: 20px;
+      background-color: #4d1717;
+      color: bisque;
+    }
+  </style>
+  <script>
+    function onSubmit() {
+      alert("Thank You For Submission The Form");
+    }
+  </script>
+</head>
+
+<body>
+  <div class="o">
+    <h1><b>Welcome To Company</b></h1>
+    <form action="backend.php" onsubmit="onSubmit()">
+      <div>
+        <label for="firstName">FirstName: <input type="text" placeholder="FirstName" id="firstName"></label>
+      </div><br>
+      <div>
+        <label for="lastName">LastName: <input type="text" placeholder="LastName" id="lastName"></label>
+      </div><br>
+      <div>
+        <label for="password">Password: <input type="password" placeholder="Password" id="password"></label>
+      </div><br>
+      <div>
+        <label for="email">Email id : <input type="email" placeholder="Email" id="email"></label>
+      </div><br>
+      <div>
+        <label for="phone">Phone no.: <input type="text" placeholder="Phone no." id="phone"></label>
+      </div><br>
+      <div>
+        <label for="date">Date Of Appointment: <input type="date" id="date"></label>
+      </div><br>
+      <div>
+        <label for="work">Work Description: <textarea placeholder="Type your work description here" id="work" rows="4" cols="50"></textarea></label>
+      </div><br>
+      <div>
+        <input type="submit" value="Submit" style="color: rgb(255, 0, 0)" class="sub">
+      </div><br>
+    </form>
+  </div>
+</body>
+
+</html>

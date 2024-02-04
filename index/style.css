@@ -1,0 +1,155 @@
+h1{
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+    font-size: 36px; /* Adjust the font size as needed */
+}
+span{
+    color:orangered;
+    font-size: medium;
+}
+
+.navbar {
+    background-color: black;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+}
+
+.navbar ul {
+    overflow: auto;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    list-style: none;
+    margin: 13px 20px;
+}
+
+.navbar li a {
+    padding: 3px 3px;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 18px; /* Adjust the font size as needed */
+}
+
+.navbar li a:hover {
+    border-color: aqua;
+    background-color: tan;
+    color: blueviolet;
+}
+
+.search {
+    float: right;
+    margin: 10px;
+}
+
+body {
+    background-image: url('https://res.cloudinary.com/dijqqoyfu/image/upload/v1707037166/pngtree-hexagonal-abstract-background-with-a-black-textured-surface-image_13704307_bds0py.png');
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-size: cover;
+}
+
+.aayush-image {
+    position: absolute;
+    top: 130px;
+    right: 10px;
+    border-radius: 2%; /* To make it circular */
+    width: 330px;
+}
+.center {
+    margin: 0 auto;
+    display: block;
+}
+
+.son-image{
+    height: 343px;
+    width: 550px;
+}
+
+
+
+h1 {
+    color: #333;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.skill {
+    width: 150px;
+    margin: 10px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.language {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.chart {
+    width: 100%;
+    height: 15px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+
+.chart::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #3498db;
+    transition: width 0.6s;
+}
+#jojo{
+    margin-top: 250px;
+    color: whitesmoke;
+    background-color: orange;
+}
+
+.skill:hover .chart::after {
+    width: 75%;
+}
+
+.skill:hover .chart::before {
+    width: 25%;
+}
+
+.chart::before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #e0e0e0;
+    transition: width 0.6s;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+}
+
+.back-to-top {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
